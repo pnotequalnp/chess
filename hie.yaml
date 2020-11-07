@@ -1,0 +1,8 @@
+cradle:
+  cabal:
+    - path: "./src"
+      component: "lib:chess"
+    - path: "./app"
+      component: "exe:chess"
+    - path: "./test"
+      component: "test:chess-test"
